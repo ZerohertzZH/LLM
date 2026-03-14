@@ -19,11 +19,16 @@
 ```
 pip install -r requirements.txt
 ```
-3. 运行应用：
+3. 开启docker
+```
+到logic/opensearchDB下
+执行 docker compose up -d
+```
+4. 运行应用：
 ```
 python app.py
 ```
-4. 打开浏览器，访问`http://localhost:5000`，你就可以使用这些功能了。
+5. 打开浏览器，访问`http://localhost:5000`，你就可以使用这些功能了。
 ## 贡献
 如果你有任何建议或者想要贡献代码，请随时提交Pull Request或者在Issues中提出你的想法。
 ## 许可证
